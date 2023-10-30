@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.title{
+    font-size: 40px;
+}
+.choice{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  margin: 5px;
+  background-color: black;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  
+}
+
+ .resetbutton{
+   height: 38px;
+   width: 110px;
+   font-size: 16px;
+ }
+
+.images{
+    height: 50px;
+}
