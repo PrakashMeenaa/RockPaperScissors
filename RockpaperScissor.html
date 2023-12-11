@@ -6,13 +6,15 @@
     </head>
     <body>
         <p class="title">Rock Paper Scissors</p>
-        <button class="choice" onclick="playgame('Rock');"><img class="images" src="rockpaper/rock-emoji.png"></button>
-        <button class="choice" onclick="playgame('Paper');"><img class="images" src="rockpaper/paper-emoji.png"></button>
-        <button class="choice" onclick="playgame('Scissor');"><img class="images" src="rockpaper/scissor-emoji.png"></button>
+        <button class="choice js_rock_button" ><img class="images" src="rockpaper/rock-emoji.png"></button>
+        <button class="choice js_paper_button" ><img class="images" src="rockpaper/paper-emoji.png"></button>
+        <button class="choice js_scissor_button" ><img class="images" src="rockpaper/scissor-emoji.png"></button>
         <p class="result"></p>
         <p class="choices"></p>
         <p class="scorecard">win: 0,losses:0,draws:0</p>
-        <button class="resetbutton" onclick="reset();">Reset score</button>
+        <button class="resetbutton js_resetbutton" >Reset score</button>
+        <button class="autoPlay js_autoplay" >Autoplay</button>
+        <div class="confirmation_message"></div>
         <script src="RockpaperScissor.js"></script>
     </body>
 </html>

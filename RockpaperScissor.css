@@ -20,8 +20,7 @@ p{
   border-color: white;
   
 }
-
- .resetbutton{
+ .resetbutton,.autoPlay{
    height: 38px;
    width: 110px;
    font-size: 16px;
@@ -29,4 +28,9 @@ p{
 
 .images{
     height: 50px;
+}
+.confirmation_button_no,.confirmation_button_yes{
+  height: 38px;
+  width: 50px;
+  font-size: 16px;
 }
